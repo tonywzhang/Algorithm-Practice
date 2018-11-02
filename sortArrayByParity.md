@@ -18,13 +18,12 @@ Note:
 1 <= A.length <= 5000
 0 <= A[i] <= 5000
 
-
-
 Initially, I thought using Sets would be a good idea, one set for even numbers, one for odd, so that we could just return the values in each set. This method would save us the trouble of iterating over A twice, once for evens, then once for odds.
 
 The problem with Sets is the fact that they can only store one instance of a value, so duplicate values are neglected.
 
 ```
+//initial mistake
 var sortArrayByParity = function(A) {
     let evenSet = new Set();
     let oddSet = new Set();
@@ -37,5 +36,20 @@ var sortArrayByParity = function(A) {
         }
     }
     return [...evenSet].concat([...oddSet]);
+};
+
+
+var sortArrayByParity = function(A) {
+    let evenArray = [];
+    let oddArray = [];
+
+    for(let i = 0; i < A.length; i++){
+        if (A[i]%2 == 0){
+            evenArray.push(A[i]);
+        }else {
+            oddArray.push(A[i]);
+        }
+    }
+    return evenArray.concat(oddArray);
 };
 ```
