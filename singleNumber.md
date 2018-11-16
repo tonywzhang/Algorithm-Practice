@@ -7,7 +7,7 @@ Note:
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
 Example 1:
-
+ 
 Input: [2,2,1]
 Output: 1
 Example 2:
