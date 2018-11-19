@@ -24,7 +24,7 @@ Output: 0
 Example 3:
 
 Input: ["zyx","wvu","tsr"]
-Output: 3
+Output: 3 
 
 
 Note:
