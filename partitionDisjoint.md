@@ -25,7 +25,7 @@ Note:
 2 <= A.length <= 30000
 0 <= A[i] <= 10^6
 It is guaranteed there is at least one way to partition A as described.
-
+.
 
 ```
 var partitionDisjoint = function(A) {
