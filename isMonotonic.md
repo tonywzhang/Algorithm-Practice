@@ -59,5 +59,5 @@ var isMonotonic = function(A) {
     }
     let aLen = A.length - 1;
     return ascIdx == aLen || descIdx == aLen;
-}; 
+};
 ```
