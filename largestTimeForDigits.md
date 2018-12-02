@@ -42,16 +42,14 @@ var largestTimeFromDigits = function(A) {
 
     let latest = "";
     let bestHours = 0;
-    // let bestMins = 0;
 
     for(let i = 0; i < result.length; i++){
         let hours = parseInt(result[i].slice(0,2));
-        // let mins = parseInt(result[i].slice(3,5));
+        let mins = parseInt(result[i].slice(3,5));
 
         if (hours < 24 && mins < 60){
             latest = result[i];
             bestHours = hours;
-            // bestMins = mins;
         }
     }
     return latest;
