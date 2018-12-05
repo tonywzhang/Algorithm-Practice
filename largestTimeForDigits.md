@@ -69,5 +69,5 @@ var arrPerms = function(num){
         }
     }
     return result;
-};
+}; 
 ```
