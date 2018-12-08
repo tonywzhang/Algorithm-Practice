@@ -67,3 +67,24 @@ var nextGreatestLetter = function(letters, target) {
     }
 };
 ```
+
+```
+Revised Version
+
+
+var nextGreatestLetter = function(letters, target) {
+    if (letters.length < 2) return letters[0];
+    if (target >= letters[letters.length -1]) return letters[0];
+
+    let mid_idx = Math.floor(letters.length/2);
+
+    if (letters[mid_idx] <= target){
+        let nextSlice = letters.slice(mid_idx + 1, letters.length);
+        return nextGreatestLetter(nextSlice, target);
+    } else {
+        if(letters[mid_idx - 1] <= target) return letters[mid_idx];
+        let nextSlice = letters.slice(0, mid_idx);
+        return nextGreatestLetter(nextSlice, target);
+    }
+};
+```
