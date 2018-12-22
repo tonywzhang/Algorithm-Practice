@@ -51,5 +51,5 @@ var sortArrayByParity = function(A) {
         }
     }
     return evenArray.concat(oddArray);
-};
+}; 
 ```
