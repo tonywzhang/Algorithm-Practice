@@ -38,5 +38,5 @@ var getValue = function(str){
       }
     }
     return result;
-}
+} 
 ```
