@@ -68,4 +68,28 @@ var generateNums = function(arr){
     }
     return result;
 };
+
+
+
+
+
+var reorderedPowerOf2 = function(N) {
+    let numArr = [];
+    let num = 1;
+    let nStr = N.toString().split("").sort().join("");
+    while(num <= 1000000000){
+        numArr.push(num);
+        num *= 2;
+    }
+
+    for(let i = 0; i < numArr.length; i++){
+        let currNumDigits = numArr[i].toString().split("").sort();
+        if(currNumDigits.length != nStr.length) continue;
+        if(currNumDigits.join("") == nStr) return true;
+    }
+
+    return false;
+};
+
+
 ```
