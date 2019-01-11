@@ -49,7 +49,7 @@ var binaryGap = function(N) {
         if(numStr[i] == '1'){
             oneIdx.push(i);
         }
-    }
+    } 
 
     for(let i = 0; i < oneIdx.length - 1; i++){
         if(max < oneIdx[i+1] - oneIdx[i]) max = oneIdx[i+1] - oneIdx[i];
