@@ -60,7 +60,7 @@ Note:
 var oddEvenJumps = function(A) {
     let result = [];
     let total = 0;
-    for(let i = 0; i < A.length; i++){
+    for(let i = 0; i < A.length; i++){ 
         total += jumps(A.slice(i), 1);
     }
     return total;
