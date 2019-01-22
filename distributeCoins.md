@@ -56,4 +56,4 @@ var coinInfo = function(root){
 
     return [root.val - 1 + leftTraverse[0] + rightTraverse[0], leftTraverse[1] + rightTraverse[1] + Math.abs(leftTraverse[0] + rightTraverse[0] + root.val - 1)];
 };
-``` 
+```  
