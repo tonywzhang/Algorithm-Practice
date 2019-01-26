@@ -80,6 +80,6 @@ var flipMatchVoyage = function(root, voyage) {
     }
 
     return result;
-};
+}; 
 
-``` 
+```
