@@ -57,5 +57,5 @@ var strWithout3a3b = function(A, B) {
         }
     }
     return result;
-};    
+};     
 ```
