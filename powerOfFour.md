@@ -14,24 +14,24 @@ Output: false
 ```
 
 ```
-var isPowerOfThree = function(n) {
+var isPowerOfFour = function(n) {
     if(n < 1) return false;
-    let baseThree = n.toString(3);
+    let baseFour = n.toString(4);
     let oneCount = 0;
     let zeroCount = 0;
 
-    for(let i = 0; i < baseThree.length; i++){
-        if(baseThree[i] == "1") oneCount += 1;
-        if(baseThree[i] == "0") zeroCount += 1;
+    for(let i = 0; i < baseFour.length; i++){
+        if(baseFour[i] == "1") oneCount += 1;
+        if(baseFour[i] == "0") zeroCount += 1;
     }
-    return (oneCount == 1 && zeroCount + oneCount == baseThree.length);
+    return (oneCount == 1 && zeroCount + oneCount == baseFour.length);
 };
 
-var isPowerOfThree = function(n){
+var isPowerOfFour = function(n){
   if(n < 1) return false;
 
   while(n > 1){
-    n/=3;
+    n/=4;
   }
   return n == 1;
 };
