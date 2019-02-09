@@ -16,7 +16,7 @@ Output:
 [5,6]
 ```
 
-
+ 
 ```
 var findDisappearedNumbers = function(nums) {
     let numSet = new Set();
