@@ -27,5 +27,5 @@ var singleNonDuplicate = function(nums) {
            }
     }
     return Array.from(numSet.values())[0];
-};
+}; 
 ```
