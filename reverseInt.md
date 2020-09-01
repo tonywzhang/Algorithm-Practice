@@ -32,6 +32,6 @@ var reverse = function(x) {
     }
     let result = parseInt(newNum);
     if(result >= 2**31 || result <= (-1) * 2**31) return 0;
-    return result;
+    return result; 
 };
 ```
