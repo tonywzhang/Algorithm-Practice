@@ -10,6 +10,7 @@ Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
              Since 2 has only one digit, return it.
 
 ```
+
 var addDigits = function(num) {
     while (num>=10){
         num = addDigitStep(num);
@@ -24,7 +25,6 @@ function addDigitStep(num) {
     root += num % 10;
     num = Math.floor(num/10);
   }
-
   return root;
 }
 ```

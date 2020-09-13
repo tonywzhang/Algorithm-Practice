@@ -4,6 +4,16 @@ Given an integer array A, and an integer target, return the number of tuples i, 
 
 As the answer can be very large, return it modulo 10^9 + 7.
 
+
+
+
+
+
+
+
+
+
+
 ```
 Example 1:
 

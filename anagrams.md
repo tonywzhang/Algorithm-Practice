@@ -22,6 +22,7 @@ def anagrams?(str1, str2)
   return str1_hash==str2_hash  
 end
 
+
 puts "-------Anagrams-------"
 puts anagrams?("alert", "alter") == true
 puts anagrams?("desert", "rested") == true
