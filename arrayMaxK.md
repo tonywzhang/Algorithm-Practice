@@ -18,4 +18,21 @@ var arrayMax = function(arr, K){
   return currMax;
 };
 
+
+
+
+var arrayMax = function(arr, K){
+  if(arr.length == 0) return -1;
+
+  let runningMax = -1;
+  for(let i = 0; i < arr.lenth; i++){
+    let currNum = arr[i];
+    if(currNum < K) continue;
+
+    if(runningMax < currNum) runningMax = currNum;
+  }
+
+  return runningMax;
+}
+
 ```
