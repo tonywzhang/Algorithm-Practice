@@ -24,4 +24,18 @@ var findDuplicates = function(nums) {
     return dups;
 };
 
+
+var findDuplicates = function(nums){
+  let numSet = new Set();
+  let dups = [];
+
+  for(let i = 0; i < nums.length; i++){
+    if numSet.has(nums[i]) dups.push(nums[i]);
+    if (numSet.has(nums[i]) == false) numSet.add(nums[i]);
+  }
+
+  return dups;
+
+}
+
 ```
