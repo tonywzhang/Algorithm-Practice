@@ -42,6 +42,6 @@ var numUniqueEmails = function(emails) {
         }
     }
 
-    return emailSet.size;
+    return emailSet.size; 
 };
 ```
