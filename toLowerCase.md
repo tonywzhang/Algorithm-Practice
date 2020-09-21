@@ -29,5 +29,5 @@ var toLowerCase = function(str) {
         }
     }
     return newString;
-};
+}; 
 ```
