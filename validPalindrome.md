@@ -31,6 +31,6 @@ var isPalindrome = function(s) {
 
     let strCopy = newStr.slice();
 
-    return newStr === strCopy.split("").reverse().join("");
-}; 
+    return newStr === strCopy.split("").reverse().join(""); 
+};
 ```
