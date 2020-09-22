@@ -18,6 +18,6 @@ var sumOfLeftLeaves = function(root) {
     let val = 0;
     if(!root)return 0;
     if (root.left && !root.left.left && !root.left.right) val = root.left.val;
-    return val + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
+    return val + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right); 
 };
 ```
