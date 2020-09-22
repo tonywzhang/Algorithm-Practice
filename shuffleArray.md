@@ -39,6 +39,6 @@ var shuffle = function(nums, n) {
         yIdx+=1;
     }
 
-    return shuffledNums;
+    return shuffledNums; 
 };
 ```
