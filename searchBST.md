@@ -31,6 +31,6 @@ var searchBST = function(root, val) {
         if(node.left != null) queue.push(node.left);
         if(node.right != null) queue.push(node.right);
     }
-    return null;
+    return null; 
 };
 ```
