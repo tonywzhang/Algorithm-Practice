@@ -22,5 +22,5 @@ var rotateString = function(A, B) {
         if (A === B) return true;
         }
     return false;
-};
+}; 
 ```
