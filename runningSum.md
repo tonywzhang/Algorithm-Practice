@@ -47,6 +47,6 @@ var runningSum = function(nums) {
         result.push(runningSum);
     }
     return result;
-};
+}; 
 
 ```
