@@ -26,9 +26,9 @@ For example, return the following Ids for the above Weather table:
 
 ```
 SELECT
-weather1.Id 
+weather1.Id
 FROM
 Weather weather1, Weather weather2
 WHERE
-weather1.Temperature > weather2.Temperature AND TO_DAYS(weather1.RecordDate)-TO_DAYS(weather2.RecordDate)=1;
+weather1.Temperature > weather2.Temperature AND TO_DAYS(weather1.RecordDate)-TO_DAYS(weather2.RecordDate)=1; 
 ```
