@@ -32,7 +32,7 @@ Output: -1
 Constraints:
 
 1 <= croakOfFrogs.length <= 10^5
-All characters in the string are: 'c', 'r', 'o', 'a' or 'k'.
+All characters in the string are: 'c', 'r', 'o', 'a' or 'k'. 
 
 
 
