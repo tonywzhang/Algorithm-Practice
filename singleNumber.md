@@ -27,6 +27,6 @@ var singleNumber = function(nums) {
         }
     }
 
-    return Array.from(numSet.keys())[0];
+    return Array.from(numSet.keys())[0]; 
 };
 ```
