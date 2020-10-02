@@ -38,6 +38,10 @@ var divisors = function(num){
 
     for(let i = 1; i <= num; i++){
         if(num%i == 0) result.push(i);
+        if(i > Math.floor(num/2)) {
+            result.push(num);
+            break;
+        }
     }
 
     return result;
