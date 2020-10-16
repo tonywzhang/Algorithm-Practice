@@ -41,5 +41,5 @@ var smallestRangeI = function(A, K) {
     } else {
         return max - min - (2*K);
     }
-}; 
+};  
 ```
