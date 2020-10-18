@@ -22,7 +22,7 @@ The input "[3, 5, 1, 6, 2, 0, 8, null, null, 7, 4]" is a serialization of the gi
 The output "[2, 7, 4]" is a serialization of the subtree rooted at the node with value 2.
 Both the input and output have TreeNode type.
 ```
-
+ 
 
 Note:
 
