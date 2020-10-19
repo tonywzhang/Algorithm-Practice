@@ -23,7 +23,7 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 Note:
 
 1 <= time.length <= 60000
-1 <= time[i] <= 500
+1 <= time[i] <= 500 
 
 ```
 var numPairsDivisibleBy60 = function(time) {
