@@ -20,7 +20,7 @@ Input:
 "cccaaa"
 
 Output:
-"cccaaa"
+"cccaaa" 
 
 Explanation:
 Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
