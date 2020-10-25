@@ -36,7 +36,7 @@ var smallerNumbersThanCurrent = function(nums) {
      let len = nums.length;
     let sorted = [...nums].sort((a, b) => { return b - a });
     let result = [];
-    let map = {};
+    let map = {}; 
     for (let i = 0; i < len; i++) {
         map[sorted[i]] = i;
     }
