@@ -10,7 +10,7 @@ The encoded string should be as compact as possible.
 var serializeVal = function(x) {
     if (x == null) return "null ";
     return `${x.val} `;
-}
+} 
 
 var serialize = function(root) {
     if (root == null) return "";
