@@ -21,7 +21,7 @@ Example 2:
 Input: startTime = [4], endTime = [4], queryTime = 4
 Output: 1
 Explanation: The only student was doing their homework at the queryTime.
-Example 3:
+Example 3: 
 
 Input: startTime = [4], endTime = [4], queryTime = 5
 Output: 0
