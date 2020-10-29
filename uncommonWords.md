@@ -21,7 +21,7 @@ Output: ["banana"]
 
 Note:
 
-0 <= A.length <= 200
+0 <= A.length <= 200 
 0 <= B.length <= 200
 A and B both contain only spaces and lowercase letters.
 
