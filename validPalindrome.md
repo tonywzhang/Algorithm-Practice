@@ -22,7 +22,7 @@ var isPalindrome = function(s) {
     let alphabet = "abcdefghijklmnopqrstuvwxyz";
     let numbers = "0123456789";
 
-    s = s.toLowerCase();
+    s = s.toLowerCase(); 
     let newStr = "";
 
     for(let i = 0; i < s.length; i++){
@@ -31,6 +31,6 @@ var isPalindrome = function(s) {
 
     let strCopy = newStr.slice();
 
-    return newStr === strCopy.split("").reverse().join(""); 
+    return newStr === strCopy.split("").reverse().join("");
 };
 ```
