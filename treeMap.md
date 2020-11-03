@@ -35,7 +35,7 @@ class TreeMap{
           currNode.left = newNode;
           return;
         }
-      }else{
+      }else{ 
         if(currNode.right != null){
           currNode = currNode.right;
         }else{
@@ -46,5 +46,5 @@ class TreeMap{
     }
     this.map = newNode;
   };
-}; 
+};
 ```
