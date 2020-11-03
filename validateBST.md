@@ -19,7 +19,7 @@ Output: true
 Example 2:
 
     5
-   / \
+   / \ 
   1   4
      / \
     3   6
