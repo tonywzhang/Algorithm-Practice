@@ -17,7 +17,7 @@ Input: [2,2,2,5,2]
 Output: false
 ```
 
-
+ 
 Note:
 
 The number of nodes in the given tree will be in the range [1, 100].
