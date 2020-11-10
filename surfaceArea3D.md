@@ -18,7 +18,7 @@ Output: 34
 Example 3:
 
 Input: [[1,0],[0,2]]
-Output: 16
+Output: 16 
 Example 4:
 
 Input: [[1,1,1],[1,0,1],[1,1,1]]
