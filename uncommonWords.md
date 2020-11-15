@@ -13,7 +13,7 @@ Example 1:
 
 Input: A = "this apple is sweet", B = "this apple is sour"
 Output: ["sweet","sour"]
-Example 2: 
+Example 2:
 
 Input: A = "apple apple", B = "banana"
 Output: ["banana"]
@@ -25,7 +25,7 @@ Note:
 0 <= B.length <= 200
 A and B both contain only spaces and lowercase letters.
 
-```
+``` 
 var uncommonFromSentences = function(A, B) {
     let uncommon = [];
     let wordMapA = new Map();
