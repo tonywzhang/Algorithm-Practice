@@ -17,7 +17,7 @@ Example 2:
 Input: words = ["leetcode","et","code"]
 Output: ["et","code"]
 Explanation: "et", "code" are substring of "leetcode".
-Example 3:
+Example 3: 
 
 Input: words = ["blue","green","bu"]
 Output: []
