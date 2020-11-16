@@ -14,7 +14,7 @@ Return an list of non-empty reports in order of X coordinate.  Every report will
 
 Example 1:
 
-
+ 
 
 Input: [3,9,20,null,null,15,7]
 Output: [[9],[3,15],[20],[7]]
@@ -25,7 +25,7 @@ The nodes with values 3 and 15 occur at positions (0, 0) and (0, -2);
 The node with value 20 occurs at position (1, -1);
 The node with value 7 occurs at position (2, -2).
 Example 2:
- 
+
 
 
 Input: [1,2,3,4,5,6,7]
