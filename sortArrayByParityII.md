@@ -16,12 +16,12 @@ Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
 ```
 
 
-Note:
+Note: 
 
 2 <= A.length <= 20000
 A.length % 2 == 0
 0 <= A[i] <= 1000
- 
+
 
 ```
 var sortArrayByParityII = function(A) {
