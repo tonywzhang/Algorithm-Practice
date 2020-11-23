@@ -4,7 +4,7 @@ Given the array nums, for each nums[i] find out how many numbers in the array ar
 
 Return the answer in an array.
 
-
+ 
 
 Example 1:
 
@@ -36,7 +36,7 @@ var smallerNumbersThanCurrent = function(nums) {
      let len = nums.length;
     let sorted = [...nums].sort((a, b) => { return b - a });
     let result = [];
-    let map = {}; 
+    let map = {};
     for (let i = 0; i < len; i++) {
         map[sorted[i]] = i;
     }
