@@ -20,7 +20,7 @@ Note:
 -10000 <= A[i] <= 10000
 A is sorted in non-decreasing order.
 
-```
+``` 
 var sortedSquares = function(A) {
     let result = [];
     for(let i = 0; i < A.length; i++){
