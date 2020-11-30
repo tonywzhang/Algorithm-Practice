@@ -13,9 +13,9 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
       0
      / \
    -3   9
-   /   / 
+   /   /
  -10  5
-
+ 
  ```
  var sortedArrayToBST = function(nums) {
      if (nums.length == 0) return null;
