@@ -18,7 +18,7 @@ Note:
 -10000 <= A[i] <= 10000
 2 <= K <= 10000
 
-```
+``` 
 var subarraysDivByK = function(A, K) {
     let total = 0;
     for(let i = 0; i < A.length; i++){
