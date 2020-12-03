@@ -22,7 +22,7 @@ Output: false
 Explanation: The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '∅', where '∅' is defined as the blank character which is less than any other character (More info).
 ```
 
-
+ 
 Note:
 
 1 <= words.length <= 100
