@@ -23,7 +23,7 @@ Given some queries, return a list of words answer, where answer[i] is the correc
 
 ```
 Example 1:
-
+ 
 Input: wordlist = ["KiTe","kite","hare","Hare"], queries = ["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"]
 Output: ["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"]
  ```
