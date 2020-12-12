@@ -22,7 +22,7 @@ var isAnagram = function(s, t) {
     for(let i = 0; i < s.length; i++){
         if (sLetters[i] != tLetters[i]) return false;
     }
- 
+  
     return true;
 };
 ```
