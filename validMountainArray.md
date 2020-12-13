@@ -12,7 +12,7 @@ A[i] > A[i+1] > ... > A[B.length - 1]
 ```
 
 
-
+ 
 ```
 var validMountainArray = function(A) {
 
