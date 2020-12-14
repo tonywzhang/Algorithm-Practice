@@ -16,10 +16,10 @@ Input:
    / \
   1   3
 Output: true
-Example 2:
+Example 2: 
 
     5
-   / \ 
+   / \
   1   4
      / \
     3   6
