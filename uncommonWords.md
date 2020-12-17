@@ -17,8 +17,8 @@ Example 2:
 
 Input: A = "apple apple", B = "banana"
 Output: ["banana"]
- ```
- 
+ ``` 
+
 Note:
 
 0 <= A.length <= 200
