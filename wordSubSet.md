@@ -22,7 +22,7 @@ Example 3:
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["e","oo"]
 Output: ["facebook","google"]
 Example 4:
-
+ 
 Input: A = ["amazon","apple","facebook","google","leetcode"], B = ["lo","eo"]
 Output: ["google","leetcode"]
 Example 5:
