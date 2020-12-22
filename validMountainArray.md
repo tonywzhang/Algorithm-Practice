@@ -12,7 +12,7 @@ A[i] > A[i+1] > ... > A[B.length - 1]
 ```
 
 
- 
+
 ```
 var validMountainArray = function(A) {
 
@@ -20,7 +20,7 @@ var validMountainArray = function(A) {
         return false;
     }
 
-    let left = 0;
+    let left = 0; 
     let right = A.length-1;
 
     if(A[left] > A[left + 1] || A[right] > A[right - 1]){
