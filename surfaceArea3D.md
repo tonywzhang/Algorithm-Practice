@@ -11,14 +11,14 @@ Example 1:
 
 Input: [[2]]
 Output: 10
-Example 2:
+Example 2: 
 
 Input: [[1,2],[3,4]]
 Output: 34
 Example 3:
 
 Input: [[1,0],[0,2]]
-Output: 16 
+Output: 16
 Example 4:
 
 Input: [[1,1,1],[1,0,1],[1,1,1]]
