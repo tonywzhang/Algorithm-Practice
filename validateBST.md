@@ -15,9 +15,9 @@ Input:
     2
    / \
   1   3
-Output: true
+Output: true 
 Example 2:
- 
+
     5
    / \
   1   4
