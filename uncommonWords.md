@@ -13,11 +13,11 @@ Example 1:
 
 Input: A = "this apple is sweet", B = "this apple is sour"
 Output: ["sweet","sour"]
-Example 2:
+Example 2: 
 
 Input: A = "apple apple", B = "banana"
 Output: ["banana"]
- ``` 
+ ```
 
 Note:
 
