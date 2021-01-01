@@ -6,10 +6,10 @@ Implement function ToLowerCase() that has a string parameter str, and returns th
 
 Example 1:
 
-Input: "Hello" 
+Input: "Hello"
 Output: "hello"
 Example 2:
-
+ 
 Input: "here"
 Output: "here"
 Example 3:
