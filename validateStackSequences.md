@@ -16,7 +16,7 @@ Input: pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
 Output: false
 Explanation: 1 cannot be popped before 2.
 ```
-
+ 
 Note:
 
 0 <= pushed.length == popped.length <= 1000
