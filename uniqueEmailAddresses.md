@@ -14,7 +14,7 @@ It is possible to use both of these rules at the same time.
 
 Given a list of emails, we send one email to each address in the list.  How many different addresses actually receive mails?
 
-```
+``` 
 Example 1:
 
 Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
@@ -42,6 +42,6 @@ var numUniqueEmails = function(emails) {
         }
     }
 
-    return emailSet.size; 
+    return emailSet.size;
 };
 ```
